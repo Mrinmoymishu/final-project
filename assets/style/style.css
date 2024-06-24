@@ -1,0 +1,44 @@
+/* COMMOON CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul, ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* COMMOON CSS END */
+
+
+
+nav .test{
+    /* background-color: red; */
+    display: flex;
+}
+
+nav .test li{
+    padding: 0 10px;  
+}
+
+/*=====last=part======*/
+#footer{
+   background-color: black;
+}
+/*=====last=part=end=====*
